@@ -1,14 +1,19 @@
 body {
-    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
 }
 
 .qr-box {
     background-color: hsl(0, 0%, 100%);
-    margin : 100px auto 0px;
     width: 250px;
     padding: 13px 13px 10px;
     border-radius: 15px;
+    
 }
 
 .qr-code {
@@ -38,5 +43,7 @@ body {
 
 .attribution {
     margin-top: 50px;
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
 }
 
